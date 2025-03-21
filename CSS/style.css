@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+body {
+    background-color: darkslategray;
+    color: mediumaquamarine;
+    font-family: Electrolize;
+}
+
+header {
+    display: flex;
+    width: 99%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    top: 0;
+    position: fixed;
+    background-color: rgba(47, 79, 79, 0.945);
+    border-bottom: solid rgb(34, 53, 53)
+}
+
+header h1 {
+    font-size: 3vmax;
+    margin-left: 10px;
+    margin-top: 0;
+    display: inline;
+    height: 2vw;
+    color: mediumaquamarine;
+}
+
+nav, div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+#searcher {
+    width: 80%;
+    margin: 0;
+    font-size: 1vw;
+    margin-right: 10%;
+    background-color: darkcyan;
+    border: solid turquoise;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding: 5px;
+    color: rgb(0, 52, 65);
+}
+
+#buttons-acc-sett {
+    display: flex;
+    width: 100%;
+}
+
+.button-account {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgba(0, 255, 255, 0.473);
+    border: solid darkblue 2px;
+    border-radius: 20px;
+    font-size: 1.1vw;
+    padding: 5px;
+    cursor: pointer;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.textb-account {
+    display: inline;
+    align-items: center;
+    color: rgb(15, 36, 65);
+}
+
+.button-account:hover {
+    animation: colorButtonA 0.5s linear alternate infinite;
+}
+
+.button-account:active {
+    animation: none;
+    background-color: rgba(0, 255, 255, 0.644);
+}
+
+.button-settings {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    background-color: grey;
+    border: solid darkgray;
+    border-radius: 15px;
+    margin-left: 10px;
+    width: 20%;
+    padding: 5px;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.button-settings:hover {
+    animation: colorButtonS 1s ease alternate infinite;
+}
+
+.button-settings:active {
+    animation: none;
+    background-color: rgb(148, 148, 148);
+}

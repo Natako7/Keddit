@@ -1,0 +1,80 @@
+@media (orientation: portrait) {    
+    header h1 {
+        font-size: 3vmax;
+        margin-left: 10px;
+        margin-top: 0;
+        display: inline;
+        height: 2vw;
+    }
+
+    hr {
+        margin-top: 8px;
+    }
+    
+    main {
+        margin-top: 35px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav, div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #searcher {
+        width: 100%;
+        margin: 0;
+        font-size: 2.5vw;
+        background-color: darkcyan;
+        border: solid turquoise;
+        border-radius: 10px;
+        padding-left: 20px;
+        padding: 5px;
+        color: rgb(0, 52, 65);
+    }
+
+    .button-account {
+        background-color: rgba(0, 255, 255, 0.699);
+        border: solid darkblue 2px;
+        border-radius: 20px;
+        font-size: 3vw;
+        padding: 5px;
+        cursor: pointer;
+        width: 30%;
+        height: 30px;
+        margin-right: 3px;
+    }
+
+    .textb-account {
+        display: none;
+    }
+
+    #button-settings {
+        background-color: grey;
+        border: solid darkgray;
+        border-radius: 15px;
+        width: 10%;
+        font-size: 1vw;
+        cursor: pointer;
+     }
+
+    #icon-searcher {
+        height: auto;
+        width: 35px;
+        margin-left: 5px;
+    }
+
+    .icon-account {
+        height: auto;
+        width: 20px;
+    }
+
+    #icon-settings {
+        height: auto;
+        width: 15px;
+    }
+
+}
