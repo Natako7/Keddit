@@ -35,67 +35,67 @@ img {
 }
 
 #videogames {
-    background-image: url(/IMG/imgVideogames.jpg);
+    background-image: url(/IMG/Index/imgVideogames.jpg);
 }
 
 #music {
-    background-image: url(/IMG/imgMusic.jpg);
+    background-image: url(/IMG/Index/imgMusic.jpg);
 }
 
 #tech {
-    background-image: url(/IMG/imgTech.jpg);
+    background-image: url(/IMG/Index/imgTech.jpg);
 }
 
 #streamers {
-    background-image: url(/IMG/imgStream.jpeg);
+    background-image: url(/IMG/Index/imgStream.jpeg);
 }
 
 #movies {
-    background-image: url(/IMG/imgMovies.jpg);
+    background-image: url(/IMG/Index/imgMovies.jpg);
 }
 
 #animes {
-    background-image: url(/IMG/imgAnime.webp);
+    background-image: url(/IMG/Index/imgAnime.webp);
 }
 
 #sports {
-    background-image: url(/IMG/imgSports.jpg);
+    background-image: url(/IMG/Index/imgSports.jpg);
 }
 
 #art {
-    background-image: url(/IMG/imgArt.jpg);
+    background-image: url(/IMG/Index/imgArt.jpg);
 }
 
 #reading {
-    background-image: url(/IMG/imgRead.jpeg);
+    background-image: url(/IMG/Index/imgRead.jpeg);
 }
 
 #photo {
-    background-image: url(/IMG/imgPhoto.jpg);
+    background-image: url(/IMG/Index/imgPhoto.jpg);
 }
 
 #science {
-    background-image: url(/IMG/imgScience.png);
+    background-image: url(/IMG/Index/imgScience.png);
 }
 
 #health {
-    background-image: url(/IMG/imgHealth.png);
+    background-image: url(/IMG/Index/imgHealth.png);
 }
 
 #food {
-    background-image: url(/IMG/imgFood.avif);
+    background-image: url(/IMG/Index/imgFood.avif);
 }
 
 #events {
-    background-image: url(/IMG/imgEvents.jpg);
+    background-image: url(/IMG/Index/imgEvents.jpg);
 }
 
 #vehicles {
-    background-image: url(/IMG/imgVehicles.jpg);
+    background-image: url(/IMG/Index/imgVehicles.jpg);
 }
 
 #animals {
-    background-image: url(/IMG/imgAnimals.jpg);
+    background-image: url(/IMG/Index/imgAnimals.jpg);
 }
 
 .divArticle {
