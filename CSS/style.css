@@ -118,8 +118,18 @@ article {
     text-align: center;
     border: solid rgb(120, 167, 185);
     border-radius: 50px;
+    height: 350px;
+    transition: height 0.5s ease;
+    overflow: hidden;
 }
 
+article:hover {
+    height: 400px;
+}
+
+a {
+    color: mediumaquamarine;
+}
 
 .articleHome {
     background-position: var(--backpos);
@@ -134,16 +144,6 @@ article {
     width: 100%;
     border-bottom: solid rgb(120, 167, 185);
     border-radius: 40px 40px 0 0;
-}
-
-article {
-    height: 350px;
-    transition: height 0.5s ease;
-    overflow: hidden;
-}
-
-article:hover {
-    height: 400px;
 }
 
 footer {
@@ -166,4 +166,24 @@ footer {
 
 #support:active {
     background-color: rgb(152, 255, 255);
+}
+
+@keyframes colorButtonA {
+    0% {
+        background-color: rgba(0, 255, 255, 0.473);
+    }
+
+    100% {
+        background-color: rgba(0, 255, 255, 0.562);
+    }
+}
+
+@keyframes colorButtonS {
+    0% {
+        background-color: gray;
+    }
+
+    100% {
+        background-color: rgb(107, 107, 107);
+    }
 }

@@ -1,14 +1,22 @@
-:root {
-    --backpos: center;
-    --backsize: cover;
-    --backattach: scroll;
-}
+
 
 main {
+    width: 99%;
+}
+
+#gameGeneral {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 80px;
     width: 100%;
+    gap: 20px;
+}
+
+#gameCommunity {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    gap: 20px;
 }
 
 article {
@@ -29,4 +37,20 @@ article {
 
 #gameCons {
     background-image: url(./../IMG/Videogames/imgConsolas.jpg);
+}
+
+#gameNint {
+    background-image: url(./../IMG/Videogames/imgNintendo.jpg);
+}
+
+#gameSony {
+    background-image: url(./../IMG/Videogames/imgSony.avif);
+}
+
+#gameXbox {
+    background-image: url(./../IMG/Videogames/imgXbox.png);
+}
+
+#gamePC {
+    background-image: url(./../IMG/Videogames/imgPC.jpg);
 }

@@ -4,10 +4,6 @@ main {
     margin-top: 80px;
 }
 
-a {
-    color: mediumaquamarine;
-}
-
 img {
     border-radius: 10px;
     width: 80%;
@@ -75,24 +71,4 @@ img {
 
 #animals {
     background-image: url(/IMG/Index/imgAnimals.jpg);
-}
-
-@keyframes colorButtonA {
-    0% {
-        background-color: rgba(0, 255, 255, 0.473);
-    }
-
-    100% {
-        background-color: rgba(0, 255, 255, 0.562);
-    }
-}
-
-@keyframes colorButtonS {
-    0% {
-        background-color: gray;
-    }
-
-    100% {
-        background-color: rgb(107, 107, 107);
-    }
 }
