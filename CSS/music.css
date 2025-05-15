@@ -1,0 +1,24 @@
+#musicGeneral {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 80px;
+}
+
+body {
+    background-color: darkslategray;
+    color: mediumaquamarine;
+    font-family: Electrolize;
+    font-style: normal;
+}
+
+#musicSing {
+    background-image: url(./../IMG/Music/imgCantantes.jpeg);
+}
+
+#musicBand {
+    background-image: url(./../IMG/Music/imgBanda.webp);
+}
+
+#musicGrammy {
+    background-image: url(./../IMG/Music/imgGrammy.jpg);
+}
