@@ -1,7 +1,12 @@
-#musicGeneral {
+#musicPrincipal {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-top: 80px;
+}
+
+#musicGeneral {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 
 body {
