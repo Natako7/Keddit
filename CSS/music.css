@@ -1,7 +1,10 @@
+main {
+    margin-top: 5%;
+}
+
 #musicPrincipal {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-top: 80px;
 }
 
 #musicGeneral {
@@ -26,4 +29,68 @@ body {
 
 #musicGrammy {
     background-image: url(./../IMG/Music/imgGrammy.jpg);
+}
+
+li {
+    background-color: rgba(0, 0, 0, 0.493);
+    border: solid darkcyan;
+    border-radius: 2vw;
+    padding: 1vw;
+    list-style-type: none;
+    transition: height 0.5s ease, background-color 0.5s ease;
+    width: 50%;
+    margin: auto;
+    margin-top: 1vw;
+    height: 4vw;
+    color: rgb(0, 228, 228);
+}
+
+li:hover {
+    height: 7vw;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+
+.pBand {
+    font-size: 1.8vw;
+    margin: 0;
+    width: 50%;
+}
+
+.musicBackBand {
+    background-position: center;
+    background-size: 80%;
+    background-attachment: scroll;
+    background-blend-mode: overlay;
+}
+
+#LP {
+    background-image: url(./../IMG/Music/imgLP.jpg);
+    background-position-y: 45%;
+}
+
+#S41 {
+    background-image: url(./../IMG/Music/imgS41.jpg);
+}
+
+#TO {
+    background-image: url(./../IMG/Music/imgTO.jpg);
+}
+
+#ACDC {
+    background-image: url(./../IMG/Music/imgACDC.webp);
+}
+
+#Metallica {
+    background-image: url(./../IMG/Music/imgMetallica.jpg);
+}
+
+#Queen {
+    background-image: url(./../IMG/Music/imgQueen.jpg);
+}
+
+#DF {
+    background-image: url(./../IMG/Music/imgDF.jpg);
+    background-position-y: 65%;
+    background-size: 100%;
 }
