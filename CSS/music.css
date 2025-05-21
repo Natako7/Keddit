@@ -38,14 +38,24 @@ h1 {
     border-radius: 10px;
 }
 
+#bandLi {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
 li {
     background-color: rgba(0, 0, 0, 0.493);
     border: solid darkcyan;
-    border-radius: 2vw;
+    border-radius: 1.5vw;
     padding: 1vw;
     list-style-type: none;
     transition: height 0.5s ease, background-color 0.5s ease;
-    width: 50%;
+    width: 90%;
     margin: auto;
     margin-top: 1vw;
     height: 4vw;
@@ -66,7 +76,7 @@ li:hover {
 
 .musicBackBand {
     background-position: center;
-    background-size: 80%;
+    background-size: 100%;
     background-attachment: scroll;
     background-blend-mode: overlay;
 }
@@ -96,10 +106,46 @@ li:hover {
     background-image: url(./../IMG/Music/imgQueen.jpg);
 }
 
+#TB {
+    background-image: url(./../IMG/Music/imgTB.jpg);
+    background-position-y: 25%;
+}
+
 #DF {
     background-image: url(./../IMG/Music/imgDF.jpg);
     background-position-y: 65%;
-    background-size: 100%;
+}
+
+#BMTH {
+    background-image: url(./../IMG/Music/imgBMTH.jpg);
+    background-position-y: 10%;
+}
+
+#LH {
+    background-image: url(./../IMG/Music/imgLH.jpg);
+}
+
+#BABYMETAL {
+    background-image: url(./../IMG/Music/imgBABYMETAL.jpg);
+}
+
+#MTH {
+    background-image: url(./../IMG/Music/imgMTH.jpg);
+    background-position-y: 15%;
+}
+
+#YT {
+    background-image: url(./../IMG/Music/imgYT.jpg);
+    background-size: 95%;
+    background-position-y: 20%;
+}
+
+#ABBA {
+    background-image: url(./../IMG/Music/imgABBA.jpg);
+}
+
+#BB {
+    background-image: url(./../IMG/Music/imgBB.jpg);
 }
 
 #CP {
@@ -109,4 +155,27 @@ li:hover {
 #M5 {
     background-image: url(./../IMG/Music/imgM5.jpg);
     background-position-y: 15%;
+}
+
+#Morat {
+    background-image: url(./../IMG/Music/imgMorat.jpeg);
+    background-position-y: 35%;
+}
+
+#DP {
+    background-image: url(./../IMG/Music/imgDP.webp);
+}
+
+#ID {
+    background-image: url(./../IMG/Music/imgID.png);
+}
+
+#OR {
+    background-image: url(./../IMG/Music/imgOR.webp);
+    background-position-y: 15%;
+}
+
+#Mecano {
+    background-image: url(./../IMG/Music/imgMecano.jpg);
+    background-position-y: 0%;
 }
