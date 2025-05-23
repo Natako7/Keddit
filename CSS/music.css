@@ -31,11 +31,33 @@ body {
     background-image: url(./../IMG/Music/imgGrammy.jpg);
 }
 
+#musicTend {
+    background-image: url(./../IMG/Music/imgTendencia.webp);
+    background-size: 120%;
+    background-position: center;
+}
+
+#musicPopular {
+    background-image: url(./../IMG/Music/imgPopular.jpg);
+    background-size: 120%;
+    background-position: center;
+}
+
+#musicVideos {
+    background-image: url(./../IMG/Music/imgVideosMusicales.png);
+    background-position: center;
+}
+
+#backArrow {
+    position: absolute;
+}
+
 h1 {
     font-size: 3vw;
     text-align: center;
     margin: auto;
     border-radius: 10px;
+    margin-bottom: 1%;
 }
 
 #bandLi {
@@ -178,4 +200,14 @@ li:hover {
 #Mecano {
     background-image: url(./../IMG/Music/imgMecano.jpg);
     background-position-y: 0%;
+}
+
+.musicGenre {
+    font-size: 2.5vw;
+    transition: font-size 0.5s ease;
+    width: 90%;
+}
+
+.musicGenre:hover {
+    font-size: 3.5vw;
 }

@@ -1,0 +1,69 @@
+h1 {
+    font-size: 3vw;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    margin-top: 5%
+}
+
+#backArrow {
+    position: absolute;
+}
+
+#musicCantantes {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 95%;
+    margin: auto;
+    gap: 20px;
+}
+
+article {
+    background-color: rgb(0, 49, 51);
+    margin: 10px;
+    text-align: center;
+    border: solid rgb(120, 167, 185);
+    border-radius: 50px;
+    height: 350px;
+    transition: height 0.5s ease;
+    overflow: hidden;
+}
+
+article:hover {
+    height: 400px;
+    box-shadow: 0 0 15px 5px rgba(0, 255, 255, 0.3);
+}
+
+#MJ {
+    background-image: url(./../IMG/Music/imgMJ.jpg);
+    background-position-y: 1%;
+}
+
+#LG {
+    background-image: url(./../IMG/Music/imgLG.webp);
+}
+
+#BM {
+    background-image: url(./../IMG/Music/imgBM.webp);
+}
+
+#KP {
+    background-image: url(./../IMG/Music/imgKP.jpg);
+}
+
+#BE {
+    background-image: url(./../IMG/Music/imgBE.jpg);
+}
+
+#AG {
+    background-image: url(./../IMG/Music/imgAG.jpeg);
+}
+
+#ES {
+    background-image: url(./../IMG/Music/imgES.webp);
+}
+
+#DL {
+    background-image: url(./../IMG/Music/imgDL.jpg);
+}
