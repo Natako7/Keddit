@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(20, 0, 0);
+}
+
+h1 {
+    font-size: 3vw;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 5%;
+    color: rgb(219, 0, 0);
+}
+
+#backArrow {
+    position: absolute;
+}
+
+#HardDJs {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 95%;
+    margin: auto;
+    gap: 20px;
+}
+
+article {
+    background-color: rgb(61, 0, 0);
+    margin: 10px;
+    text-align: center;
+    border: solid rgb(211, 2, 2);
+    border-radius: 50px;
+    color: rgb(255, 17, 0);
+    height: 350px;
+    transition: height 0.5s ease, box-shadow 0.5s ease;
+    overflow: hidden;
+}
+
+.divArticle {
+    border-bottom: solid rgb(211, 2, 2);
+    background-color: rgba(117, 0, 0, 0.952);
+}
+
+article:hover {
+    height: 400px;
+    box-shadow: 0 0 30px 15px rgba(255, 17, 0, 0.3);
+}
+
+#Angerfist {
+    background-image: url(./../IMG/Music/imgAngerfist.jpg);
+}
+
+#S3RL {
+    background-image: url(./../IMG/Music/imgS3RL.jpg);
+}
+
+#DPeacock {
+    background-image: url(./../IMG/Music/imgDPeacock.jpg);
+}
+
+#Sefa {
+    background-image: url(./../IMG/Music/imgSefa.jpg);
+}
+
+#RanD {
+    background-image: url(./../IMG/Music/imgRD.jpg);
+}
+
+#AniMe {
+    background-image: url(./../IMG/Music/imgAniMe.jpg);
+}
+
+#Hysta {
+    background-image: url(./../IMG/Music/imgHysta.jpg);
+}
+
+#DBSTF {
+    background-image: url(./../IMG/Music/imgDBSTF.jpg);
+}

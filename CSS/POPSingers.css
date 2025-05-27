@@ -1,10 +1,15 @@
+body {
+    background-color: rgb(82, 40, 102);
+}
+
 h1 {
     font-size: 3vw;
     text-align: center;
     margin: auto;
     border-radius: 10px;
     margin-bottom: 1%;
-    margin-top: 5%
+    margin-top: 5%;
+    color: purple;
 }
 
 #backArrow {
@@ -23,16 +28,22 @@ article {
     background-color: rgb(0, 49, 51);
     margin: 10px;
     text-align: center;
-    border: solid rgb(120, 167, 185);
+    border: solid plum;
     border-radius: 50px;
+    color: plum;
     height: 350px;
-    transition: height 0.5s ease;
+    transition: height 0.5s ease, box-shadow 0.5s ease;
     overflow: hidden;
+}
+
+.divArticle {
+    border-bottom: solid plum;
+    background-color: rgba(88, 0, 88, 0.952);
 }
 
 article:hover {
     height: 400px;
-    box-shadow: 0 0 15px 5px rgba(0, 255, 255, 0.3);
+    box-shadow: 0 0 30px 15px rgba(235, 84, 255, 0.3);
 }
 
 #MJ {
@@ -66,4 +77,20 @@ article:hover {
 
 #DL {
     background-image: url(./../IMG/Music/imgDL.jpg);
+}
+
+#CC {
+    background-image: url(./../IMG/Music/imgCC.jpg);
+}
+
+#OLRO {
+    background-image: url(./../IMG/Music/imgOLRO.jpg);
+}
+
+#HS {
+    background-image: url(./../IMG/Music/imgHS.webp);
+}
+
+#Shakira {
+    background-image: url(./../IMG/Music/imgShakira.jpg);
 }
